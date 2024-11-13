@@ -1,0 +1,241 @@
+@charset "UTF-8";
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: 'Chelsea Market', cursive;
+
+}
+div#interface{
+    margin: auto;
+    width: 1363.5px;
+    background-color: #ffff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    padding: 1px;
+}
+.iconlogin{
+    position: absolute;
+    display: inline-block;
+    left: 1063px;
+    top: 51px;
+    width: 30px;
+}
+#login{
+    color: #AA8925;
+    position: absolute;
+    top: 50px;
+    left: 1100px;
+}
+#login:hover{
+    color: #FFEEBC;
+    text-decoration: underline;
+}
+
+
+.titulo{
+    font-family: 'Chelsea Market', cursive;
+    padding-top: 70px;
+    padding-left: 100px;
+
+}
+.titulo{
+    font-size: 30pt;
+    position: absolute;
+    color: #FFEEBC;
+    text-shadow: 0px 0 black, 0 0px black,
+    -2px 0 #606060, -3px 3px #606060;
+    padding: 3px;
+    left: 600px;
+    top: 50px;
+}
+header#cabecalho{
+
+    background-color : #F2BD1E;
+    height: 250px;
+    box-shadow: 1px 1px 10px black;
+}
+div#borda{
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 60px;
+    border-bottom: 1px #F2BD1E solid;
+    border-top:  1px #F2BD1E solid;;
+}
+header#menuu{
+    position: relative;
+    top: 160px;
+    background-color: white;
+    height: 60px;
+}
+
+nav#menu{
+
+    display: block;
+    font-size: 15pt;
+
+}
+nav#menu ul{
+    left: 200px;
+    top: 17px;
+    font-family: kepler-std-semicondensed-dis, serif;
+    font-weight: 700;
+    font-style: normal;
+    position: absolute;
+}
+nav#menu li{
+
+    display: inline-block;
+    background-color: white;
+    margin-right: 100px;
+}
+nav#menu h1{
+    display: none;
+}
+nav#menu a{
+    color: #AA8925;
+    text-decoration: none;
+}
+nav#menu a:hover{
+    color: #F2BD1E;
+}
+
+.facebookicon {
+    position: absolute;
+    right: 100px;
+    top: 15px;
+}
+.instagramicon{
+    position: absolute;
+    right: 70px;
+    top: 15px;
+
+}
+
+
+#btn{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: solid 1px black;
+}
+
+#btn img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#btn:hover{
+    background-color: #ffa499;
+}
+
+#texto:focus{
+    border: solid 2px  #2f4550;
+}
+div#item{
+    text-align: center;
+}
+div#imgitem img{
+    margin: 30px;
+
+ }
+
+
+#btnbomhj {
+    top: 1166px;
+    left: 157px;
+    border: none;
+    text-decoration: none;
+    position: absolute;
+    background-color: rgba(1,1,1, -0.1);
+    color: rgba(1,1,1, -0.1);
+    cursor: pointer;
+    padding: 12px 65px ;
+}
+#btnbomhj:hover{
+   background-color: rgba(255,95,66, 0.5);
+    border: 1px black solid;
+}
+
+#btncaes{
+    top: 1166px;
+    left: 445px;
+    border: none;
+    text-decoration: none;
+    position: absolute;
+    background-color: rgba(1,1,1, -0.1);
+    color: rgba(1,1,1, -0.1);
+    cursor: pointer;
+    padding: 12px 65px ;
+}
+#btncaes:hover{
+    background-color: rgba(255,95,66, 0.5);
+    border: 1px black solid;
+
+}
+#btngatos{
+    top: 1166px;
+    left: 919px;
+    border: none;
+    text-decoration: none;
+    position: absolute;
+    background-color: rgba(1,1,1, -0.1);
+    color: rgba(1,1,1, -0.1);
+    cursor: pointer;
+    padding: 12px 65px ;
+}
+#btngatos:hover{
+    background-color: rgba(255,95,66, 0.5);
+    border: 1px black solid;
+
+}
+#btnpass{
+    top: 1647px;
+    left: 159px;
+    border: none;
+    text-decoration: none;
+    position: absolute;
+    background-color: rgba(1,1,1, -0.1);
+    color: rgba(1,1,1, -0.1);
+    cursor: pointer;
+    padding: 12px 76px ;
+}
+#btnpass:hover{
+    background-color: rgba(255,95,66, 0.5);
+    border: 1px black solid;
+}
+
+#btnpeixe{
+    top: 1647px;
+    left: 635px;
+    border: none;
+    text-decoration: none;
+    position: absolute;
+    background-color: rgba(1,1,1, -0.1);
+    color: rgba(1,1,1, -0.1);
+    cursor: pointer;
+    padding: 13px 63.5px ;
+}
+#btnpeixe:hover{
+    background-color: rgba(255,95,66, 0.5);
+    border: 1px black solid;
+}
+
+
+footer#rodape{
+    background-color : #F2BD1E;
+    height: 200px;
+    border-top: 1px solid #606060;
+    clear: both;
+
+}
+footer#rodape p{
+text-align: center;
+    padding-top: 155px;
+
+}
